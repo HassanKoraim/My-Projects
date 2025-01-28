@@ -1,7 +1,9 @@
 ﻿using Entities;
-using ServicesConstract;
-using ServicesConstract.DTO;
-using ServicesConstract.Enums;
+using Microsoft.EntityFrameworkCore;
+using ServiceConstracts;
+using ServiceConstracts.DTO;
+using ServiceConstracts.Enums;
+using Services.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,9 +21,23 @@ namespace Services
             _db = doctorsDbContext;
             _citiesService = citiesService;
         }
-        public Task<DoctorResponse> AddDoctor(DoctorAddRequest doctorAddRequest)
+        public async Task<DoctorResponse> AddDoctor(DoctorAddRequest? doctorAddRequest)
         {
-            throw new NotImplementedException();
+            if(doctorAddRequest == null)
+                throw new ArgumentNullException(nameof(doctorAddRequest));
+            
+            ValidationHelper.ModelValidation(doctorAddRequest);
+            // check for dublicate doctor
+            if(await _db.Doctors.Where(doctor => doctor.DoctorName == doctorAddRequest.DoctorName).CountAsync() > 0)
+            {
+                throw new ArgumentException("Given doctor name is already exists ");
+            }
+
+            Doctor doctor = doctorAddRequest.ToDoctor();
+            doctor.DoctorId = Guid.NewGuid();
+            _db.Doctors.Add(doctor);
+            await _db.SaveChangesAsync();
+            return doctor.ToDoctorResponse();
         }
 
         public Task<bool> DeleteDoctor(Guid id)
