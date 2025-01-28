@@ -1,0 +1,42 @@
+[
+  {
+    "DoctorId": "6f9619ff-8b86-d011-b42d-00cf4fc964ff",
+    "DoctorName": "Dr. John Smith",
+    "CityName": "New York",
+    "CityId": "d5a458f1-0c2a-4979-8369-79e5cb1eaf8e",
+    "Specialization": "Cardiologist",
+    "ExaminationPrice": 150,
+    "Address": "123 Main Street, New York, NY 10001",
+    "PhoneNumber": "+1-555-123-4567"
+  },
+  {
+    "DoctorId": "9c2e7f52-d3df-4fa3-b646-1dd93b467f94",
+    "DoctorName": "Dr. Emily Davis",
+    "CityName": "Los Angeles",
+    "CityId": "ad7a5e2b-79ef-4237-b3ad-3f1e31f24a6f",
+    "Specialization": "Dermatologist",
+    "ExaminationPrice": 200,
+    "Address": "456 Sunset Blvd, Los Angeles, CA 90028",
+    "PhoneNumber": "+1-555-654-3210"
+  },
+  {
+    "DoctorId": "de305d54-75b4-431b-adb2-eb6b9e546013",
+    "DoctorName": "Dr. Sarah Johnson",
+    "CityName": "Chicago",
+    "CityId": "c9b9e1dc-ded7-4a11-bdf4-37251f1d4ae1",
+    "Specialization": "Neurologist",
+    "ExaminationPrice": 250,
+    "Address": "789 Windy City Ave, Chicago, IL 60616",
+    "PhoneNumber": "+1-555-987-6543"
+  },
+  {
+    "DoctorId": "98d076c5-6528-4b4f-90d0-d01f5cd3f004",
+    "DoctorName": "Dr. Michael Brown",
+    "CityName": "Houston",
+    "CityId": "74a72b9b-b0b8-487b-86d8-d1ad8b3ecb73",
+    "Specialization": "Pediatrician",
+    "ExaminationPrice": 180,
+    "Address": "321 Lone Star Rd, Houston, TX 77002",
+    "PhoneNumber": "010000"
+  }
+]

@@ -1,0 +1,16 @@
+E:\Coding\CSharp\AspNetCore\My-Projects\CallDoctor\ServicesConstract\bin\Debug\net6.0\ServicesConstract.deps.json
+E:\Coding\CSharp\AspNetCore\My-Projects\CallDoctor\ServicesConstract\bin\Debug\net6.0\ServicesConstract.dll
+E:\Coding\CSharp\AspNetCore\My-Projects\CallDoctor\ServicesConstract\bin\Debug\net6.0\ServicesConstract.pdb
+E:\Coding\CSharp\AspNetCore\My-Projects\CallDoctor\ServicesConstract\bin\Debug\net6.0\Entities.dll
+E:\Coding\CSharp\AspNetCore\My-Projects\CallDoctor\ServicesConstract\bin\Debug\net6.0\Entities.pdb
+E:\Coding\CSharp\AspNetCore\My-Projects\CallDoctor\ServicesConstract\obj\Debug\net6.0\ServicesConstract.csproj.AssemblyReference.cache
+E:\Coding\CSharp\AspNetCore\My-Projects\CallDoctor\ServicesConstract\obj\Debug\net6.0\ServicesConstract.GeneratedMSBuildEditorConfig.editorconfig
+E:\Coding\CSharp\AspNetCore\My-Projects\CallDoctor\ServicesConstract\obj\Debug\net6.0\ServicesConstract.AssemblyInfoInputs.cache
+E:\Coding\CSharp\AspNetCore\My-Projects\CallDoctor\ServicesConstract\obj\Debug\net6.0\ServicesConstract.AssemblyInfo.cs
+E:\Coding\CSharp\AspNetCore\My-Projects\CallDoctor\ServicesConstract\obj\Debug\net6.0\ServicesConstract.csproj.CoreCompileInputs.cache
+E:\Coding\CSharp\AspNetCore\My-Projects\CallDoctor\ServicesConstract\obj\Debug\net6.0\ServicesConstract.sourcelink.json
+E:\Coding\CSharp\AspNetCore\My-Projects\CallDoctor\ServicesConstract\obj\Debug\net6.0\Services.00B4DA43.Up2Date
+E:\Coding\CSharp\AspNetCore\My-Projects\CallDoctor\ServicesConstract\obj\Debug\net6.0\ServicesConstract.dll
+E:\Coding\CSharp\AspNetCore\My-Projects\CallDoctor\ServicesConstract\obj\Debug\net6.0\refint\ServicesConstract.dll
+E:\Coding\CSharp\AspNetCore\My-Projects\CallDoctor\ServicesConstract\obj\Debug\net6.0\ServicesConstract.pdb
+E:\Coding\CSharp\AspNetCore\My-Projects\CallDoctor\ServicesConstract\obj\Debug\net6.0\ref\ServicesConstract.dll

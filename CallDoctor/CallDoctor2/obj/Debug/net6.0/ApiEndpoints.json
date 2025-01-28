@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "CallDoctor.Controllers.CitiesController",
+    "Method": "GetAllCities",
+    "RelativePath": "Cities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CallDoctor.Controllers.CitiesController",
+    "Method": "GetCityById",
+    "RelativePath": "Cities/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
