@@ -2,23 +2,51 @@
 @using ServiceConstracts.DTO;
 @model List<DoctorResponse>
 
+@*Search Bar*@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form asp-controller="Doctors" asp-action="Index" method="get" >
+                <div class="input-group mb-3" >
+                    <select class="form-select" style="max-width: 150px;" name="searchBy">
+                        <option value="@nameof(DoctorResponse.DoctorName)">Doctor Name</option>
+                        <option value="@nameof(DoctorResponse.Specialization)">Specialization</option>
+                        <option value="@nameof(DoctorResponse.Address)">Address</option>
+                        <option value="@nameof(DoctorResponse.CityName)">City Name</option>
+                    </select>
+                    <input type="text" class="form-control" placeholder="Search..." name="searchString" value="@ViewBag.CurrentSearchString">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+@*Table for Doctors*@ 
 <table class="table">
     <thead>
         <tr>
             <th scope="col">#</th>
             <th scope="col">Doctor Name</th>
             <th scope="col">Specialization</th>
+            <th scope="col">City Name</th>
             <th scope="col">Address</th>
         </tr>
     </thead>
     <tbody>
+        @{
+            int i = 1;
+        }
         @foreach (DoctorResponse doctor in Model){
             <tr>
-                <th scope="row">@doctor.DoctorId</th>
+                <th scope="row">@i</th>
                 <td>@doctor.DoctorName</td>
                 <td>@doctor.Specialization</td>
+                <td>@doctor.CityName</td>
                 <td>@doctor.Address</td>
             </tr>
+            i++;
+            
+
         }
     </tbody>
 </table>
