@@ -35,29 +35,67 @@ namespace Services
 
             Doctor doctor = doctorAddRequest.ToDoctor();
             doctor.DoctorId = Guid.NewGuid();
+            doctor.CityName = "Ef";
             _db.Doctors.Add(doctor);
             await _db.SaveChangesAsync();
             return doctor.ToDoctorResponse();
         }
 
-        public Task<bool> DeleteDoctor(Guid id)
+        public async Task<bool> DeleteDoctor(Guid id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<List<DoctorResponse>> GetAllDoctors()
+        public async Task<List<DoctorResponse>> GetAllDoctors()
         {
-            throw new NotImplementedException();
+            List<DoctorResponse> doctorResponses = await _db.Doctors.Include("City")
+                .Select(temp => temp.ToDoctorResponse()).ToListAsync();
+            return doctorResponses;
         }
 
-        public Task<DoctorResponse> GetDoctorById(Guid DoctorId)
+        public async Task<DoctorResponse>? GetDoctorById(Guid? DoctorId)
         {
-            throw new NotImplementedException();
+            if(DoctorId == null)
+            {
+                throw new ArgumentNullException(nameof(DoctorId));
+            }
+            Doctor? doctor= await _db.Doctors.Include("City")
+                .FirstOrDefaultAsync(temp => temp.DoctorId == DoctorId);
+            if(doctor == null)
+                throw new ArgumentNullException($"This Doctor Not Found");
+            DoctorResponse doctorResponse = doctor.ToDoctorResponse();
+            return doctorResponse;
         }
 
-        public Task<List<DoctorResponse>> GetFilteredDoctors(string? searchBy, string? searchString)
+        public async Task<List<DoctorResponse>>? GetFilteredDoctors(string? searchBy, string? searchString)
         {
-            throw new NotImplementedException();
+            List<DoctorResponse?> allDoctors = await GetAllDoctors();
+            List<DoctorResponse> matchingDoctors = allDoctors;
+            if(string.IsNullOrEmpty(searchBy) || string.IsNullOrEmpty(searchString))
+                return matchingDoctors;
+
+            matchingDoctors = (searchBy) switch
+            {
+                (nameof(DoctorResponse.DoctorName)) => allDoctors
+                    .Where(
+                        temp => !string.IsNullOrEmpty(temp.DoctorName) ?
+                        temp.DoctorName.Contains(searchString, StringComparison.OrdinalIgnoreCase) : true).ToList(),
+                (nameof(DoctorResponse.Specialization)) => allDoctors
+                .Where(
+                        temp => !string.IsNullOrEmpty(temp.Specialization) ?
+                        temp.Specialization.Contains(searchString, StringComparison.OrdinalIgnoreCase) : true).ToList(),
+                (nameof(DoctorResponse.Address)) => allDoctors
+                .Where(
+                    temp => !string.IsNullOrEmpty(temp.Address) ?
+                    temp.Address.Contains(searchString, StringComparison.OrdinalIgnoreCase) : true).ToList(),
+                (nameof(DoctorResponse.CityName)) => allDoctors
+                .Where(
+                        temp => !string.IsNullOrEmpty(temp.CityName) ?
+                        temp.CityName.Contains(searchString, StringComparison.OrdinalIgnoreCase) : true).ToList(),
+                _ => matchingDoctors
+            };
+
+            return matchingDoctors;
         }
 
         public Task<List<DoctorResponse>> GetSortedDoctors(List<DoctorResponse> Alldoctors, string? sortBy, SortOrderOptions sortOrder)
