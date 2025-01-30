@@ -1,11 +1,12 @@
 ﻿using Entities;
 using Microsoft.AspNetCore.Mvc;
-using ServicesConstract;
+using ServiceConstracts;
+using ServiceConstracts.DTO;
 
 namespace CallDoctor.Controllers
 {
     [Route("[controller]")]
-    public class DoctorsController : ControllerBase
+    public class DoctorsController : Controller
     {
         private readonly IDoctorsService _doctorsService;
 
@@ -15,20 +16,14 @@ namespace CallDoctor.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAllDoctors()
+        [Route("/")]
+        [Route("[action]")]
+        public async Task<IActionResult> Index(string searchby, string searchString)
         {
-            var doctors = _doctorsService.GetAllDoctors();
-            return Ok(doctors);
+            List<DoctorResponse> matchingDoctors = await _doctorsService.GetFilteredDoctors(searchby, searchString);
+            ViewBag.CurrentSearchBy = searchby;
+            ViewBag.CurrentSearchString = searchString;
+            return View(matchingDoctors);
         }
-
-        [HttpGet("{id}")]
-        public IActionResult GetDoctorById(Guid id)
-        {
-            var doctor = _doctorsService.GetDoctorById(id);
-            if (doctor == null)
-                return NotFound();
-            return Ok(doctor);
-        }
-
     }
 }
