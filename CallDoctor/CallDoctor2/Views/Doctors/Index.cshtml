@@ -21,8 +21,13 @@
         </div>
     </div>
 </div>
+<div style="margin-bottom:15px">
+    <a asp-controller="Doctors" asp-action="DoctorsPdf" asp-route-doctorsList="@Json.Serialize(Model)">
+        <button type="button" class="btn btn-secondary">Download as Pdf</button>
+    </a>
+</div>
 @*Table for Doctors*@ 
-<table class="table">
+<table class="table table-striped">
     <thead>
         <tr>
             <th scope="col">#</th>
@@ -30,6 +35,7 @@
             <th scope="col">Specialization</th>
             <th scope="col">City Name</th>
             <th scope="col">Address</th>
+            <th scope="col">Phone Number</th>
         </tr>
     </thead>
     <tbody>
@@ -43,6 +49,7 @@
                 <td>@doctor.Specialization</td>
                 <td>@doctor.CityName</td>
                 <td>@doctor.Address</td>
+                <td>@doctor.PhoneNumber</td>
             </tr>
             i++;
             
