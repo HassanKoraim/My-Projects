@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using Entities;
 
-namespace ServicesConstract.DTO
+namespace ServiceConstracts.DTO
 {
     public class DoctorResponse
     {
         public Guid DoctorId { get; set; }
         public string DoctorName { get; set; }
         public string CityName { get; set; }
-        public Guid CityId { get; set; }
+        public Guid? CityId { get; set; }
         public string? Specialization { get; set; }
         public int? ExaminationPrice { get; set; }
         public string Address { get; set; }
@@ -29,6 +29,7 @@ namespace ServicesConstract.DTO
                 DoctorId = doctor.DoctorId,
                 DoctorName = doctor.DoctorName,
                 CityId = doctor.CityId,
+                CityName = doctor.City.CityName,
                 Specialization = doctor.Specialization,
                 ExaminationPrice = doctor.ExaminationPrice,
                 Address = doctor.Address,

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using Entities;
 
-namespace ServicesConstract.DTO
+namespace ServiceConstracts.DTO
 {
     public class DoctorAddRequest
     {
@@ -11,16 +11,16 @@ namespace ServicesConstract.DTO
         [StringLength(40)]
         public string DoctorName { get; set; }
 
-   //     [Required(ErrorMessage = "Please select a city")]
-        public Guid CityId { get; set; }
+        [Required(ErrorMessage = "Please select a city")]
+        public Guid? CityId { get; set; }
         public string? Specialization { get; set; }
         public int? ExaminationPrice { get; set; }
         [DataType(DataType.MultilineText)]
         [StringLength(200)]
-        public string Address { get; set; }
+        public string? Address { get; set; }
 
         [Required(ErrorMessage = "Doctor Number can't be blank")]
-        public string PhoneNumber { get; set; }
+        public string? PhoneNumber { get; set; }
 
         public Doctor ToDoctor()
         {

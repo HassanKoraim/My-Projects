@@ -781,20 +781,7 @@
           "bin/placeholder/Entities.dll": {}
         }
       },
-      "Services/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "ServicesConstract": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Services.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Services.dll": {}
-        }
-      },
-      "ServicesConstract/1.0.0": {
+      "ServiceConstracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -802,10 +789,23 @@
           "Microsoft.EntityFrameworkCore": "6.0.5"
         },
         "compile": {
-          "bin/placeholder/ServicesConstract.dll": {}
+          "bin/placeholder/ServiceConstracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ServicesConstract.dll": {}
+          "bin/placeholder/ServiceConstracts.dll": {}
+        }
+      },
+      "Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ServiceConstracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.dll": {}
         }
       }
     }
@@ -2008,15 +2008,15 @@
       "path": "../Entities/Entities.csproj",
       "msbuildProject": "../Entities/Entities.csproj"
     },
+    "ServiceConstracts/1.0.0": {
+      "type": "project",
+      "path": "../ServicesConstract/ServiceConstracts.csproj",
+      "msbuildProject": "../ServicesConstract/ServiceConstracts.csproj"
+    },
     "Services/1.0.0": {
       "type": "project",
       "path": "../Services/Services.csproj",
       "msbuildProject": "../Services/Services.csproj"
-    },
-    "ServicesConstract/1.0.0": {
-      "type": "project",
-      "path": "../ServicesConstract/ServicesConstract.csproj",
-      "msbuildProject": "../ServicesConstract/ServicesConstract.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2025,8 +2025,8 @@
       "Microsoft.EntityFrameworkCore >= 6.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.5",
-      "Services >= 1.0.0",
-      "ServicesConstract >= 1.0.0"
+      "ServiceConstracts >= 1.0.0",
+      "Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2064,8 +2064,8 @@
             "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\Entities\\Entities.csproj": {
               "projectPath": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\Entities\\Entities.csproj"
             },
-            "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\ServicesConstract.csproj": {
-              "projectPath": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\ServicesConstract.csproj"
+            "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\ServiceConstracts.csproj": {
+              "projectPath": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\ServiceConstracts.csproj"
             },
             "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\Services\\Services.csproj": {
               "projectPath": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\Services\\Services.csproj"

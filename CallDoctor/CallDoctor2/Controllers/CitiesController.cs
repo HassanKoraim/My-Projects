@@ -1,6 +1,6 @@
 ﻿using Entities;
 using Microsoft.AspNetCore.Mvc;
-using ServicesConstract;
+using ServiceConstracts;
 
 namespace CallDoctor.Controllers
 {

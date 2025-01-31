@@ -1,7 +1,7 @@
-﻿using ServicesConstract.DTO;
-using ServicesConstract.Enums;
+﻿using ServiceConstracts.DTO;
+using ServiceConstracts.Enums;
 
-namespace ServicesConstract
+namespace ServiceConstracts
 {
     public interface IDoctorsService
     {
@@ -21,7 +21,7 @@ namespace ServicesConstract
         /// </summary>
         /// <param name="DoctorId">DoctorId to search</param>
         /// <returns>Return Matching Doctor object</returns>
-        Task<DoctorResponse> GetDoctorById(Guid DoctorId);
+        Task<DoctorResponse>? GetDoctorById(Guid? DoctorId);
         /// <summary>
         /// Returns All matching Doctors based on the search field and search string
         /// </summary>

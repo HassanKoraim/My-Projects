@@ -15,7 +15,7 @@ namespace Entities
 
         [StringLength(100)]
         public string? CityName { get; set; }
-        public Guid CityId { get; set; }
+        public Guid? CityId { get; set; }
         [StringLength(100)]
         public string? Specialization { get; set; }
         public int? ExaminationPrice { get; set; }   

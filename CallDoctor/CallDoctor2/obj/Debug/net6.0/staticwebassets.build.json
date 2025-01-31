@@ -1,12 +1,125 @@
 {
   "Version": 1,
-  "Hash": "WtcZffwPtQPQ3IvirGqRCVilZON9FzM7epQ7OqKO/+Y=",
+  "Hash": "kFbLYhlTBwbgKKKrwB11RuZwYcB0yYg5Tf6G364a2bA=",
   "Source": "CallDoctor",
   "BasePath": "_content/CallDoctor",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "CallDoctor\\wwwroot",
+      "Source": "CallDoctor",
+      "ContentRoot": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\wwwroot\\",
+      "BasePath": "_content/CallDoctor",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\wwwroot\\StyleSheet.css",
+      "SourceId": "CallDoctor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\wwwroot\\",
+      "BasePath": "_content/CallDoctor",
+      "RelativePath": "StyleSheet#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zsxp76esc4",
+      "Integrity": "Y5Yz8Lwrj44ynJzsXE5NoK07dyi0vqZF1XeH+qHf3VE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "StyleSheet.css",
+      "AssetFile": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\wwwroot\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5849"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y5Yz8Lwrj44ynJzsXE5NoK07dyi0vqZF1XeH+qHf3VE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 09:39:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y5Yz8Lwrj44ynJzsXE5NoK07dyi0vqZF1XeH+qHf3VE="
+        }
+      ]
+    },
+    {
+      "Route": "StyleSheet.zsxp76esc4.css",
+      "AssetFile": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\wwwroot\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5849"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y5Yz8Lwrj44ynJzsXE5NoK07dyi0vqZF1XeH+qHf3VE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 09:39:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zsxp76esc4"
+        },
+        {
+          "Name": "label",
+          "Value": "StyleSheet.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y5Yz8Lwrj44ynJzsXE5NoK07dyi0vqZF1XeH+qHf3VE="
+        }
+      ]
+    }
+  ]
 }

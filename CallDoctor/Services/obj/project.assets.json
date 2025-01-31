@@ -748,7 +748,7 @@
           "bin/placeholder/Entities.dll": {}
         }
       },
-      "ServicesConstract/1.0.0": {
+      "ServiceConstracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -756,10 +756,10 @@
           "Microsoft.EntityFrameworkCore": "6.0.5"
         },
         "compile": {
-          "bin/placeholder/ServicesConstract.dll": {}
+          "bin/placeholder/ServiceConstracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ServicesConstract.dll": {}
+          "bin/placeholder/ServiceConstracts.dll": {}
         }
       }
     }
@@ -1931,15 +1931,15 @@
       "path": "../Entities/Entities.csproj",
       "msbuildProject": "../Entities/Entities.csproj"
     },
-    "ServicesConstract/1.0.0": {
+    "ServiceConstracts/1.0.0": {
       "type": "project",
-      "path": "../ServicesConstract/ServicesConstract.csproj",
-      "msbuildProject": "../ServicesConstract/ServicesConstract.csproj"
+      "path": "../ServicesConstract/ServiceConstracts.csproj",
+      "msbuildProject": "../ServicesConstract/ServiceConstracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "ServicesConstract >= 1.0.0"
+      "ServiceConstracts >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1974,8 +1974,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\ServicesConstract.csproj": {
-              "projectPath": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\ServicesConstract.csproj"
+            "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\ServiceConstracts.csproj": {
+              "projectPath": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\ServiceConstracts.csproj"
             }
           }
         }

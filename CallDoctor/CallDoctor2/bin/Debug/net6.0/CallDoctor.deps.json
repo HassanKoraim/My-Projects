@@ -12,8 +12,8 @@
           "Microsoft.EntityFrameworkCore": "6.0.5",
           "Microsoft.EntityFrameworkCore.Design": "6.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.5",
-          "Services": "1.0.0",
-          "ServicesConstract": "1.0.0"
+          "ServiceConstracts": "1.0.0",
+          "Services": "1.0.0"
         },
         "runtime": {
           "CallDoctor.dll": {}
@@ -442,24 +442,24 @@
           }
         }
       },
-      "Services/1.0.0": {
-        "dependencies": {
-          "ServicesConstract": "1.0.0"
-        },
-        "runtime": {
-          "Services.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "ServicesConstract/1.0.0": {
+      "ServiceConstracts/1.0.0": {
         "dependencies": {
           "Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.5"
         },
         "runtime": {
-          "ServicesConstract.dll": {
+          "ServiceConstracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Services/1.0.0": {
+        "dependencies": {
+          "ServiceConstracts": "1.0.0"
+        },
+        "runtime": {
+          "Services.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -772,12 +772,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Services/1.0.0": {
+    "ServiceConstracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "ServicesConstract/1.0.0": {
+    "Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

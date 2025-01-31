@@ -81,12 +81,12 @@
         }
       }
     },
-    "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\ServicesConstract.csproj": {
+    "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\ServiceConstracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\ServicesConstract.csproj",
-        "projectName": "ServicesConstract",
-        "projectPath": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\ServicesConstract.csproj",
+        "projectUniqueName": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\ServiceConstracts.csproj",
+        "projectName": "ServiceConstracts",
+        "projectPath": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\ServiceConstracts.csproj",
         "packagesPath": "C:\\Users\\start\\.nuget\\packages\\",
         "outputPath": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\obj\\",
         "projectStyle": "PackageReference",
@@ -184,8 +184,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\ServicesConstract.csproj": {
-                "projectPath": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\ServicesConstract.csproj"
+              "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\ServiceConstracts.csproj": {
+                "projectPath": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\ServiceConstracts.csproj"
               }
             }
           }

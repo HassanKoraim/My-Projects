@@ -1,6 +1,6 @@
 ﻿using Entities;
-using ServicesConstract;
-using ServicesConstract.DTO;
+using ServiceConstracts;
+using ServiceConstracts.DTO;
 
 namespace Services
 {

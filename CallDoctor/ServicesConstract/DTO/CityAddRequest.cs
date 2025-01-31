@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using Entities;
 
-namespace ServicesConstract.DTO
+namespace ServiceConstracts.DTO
 {
     public class CityAddRequest
     {
