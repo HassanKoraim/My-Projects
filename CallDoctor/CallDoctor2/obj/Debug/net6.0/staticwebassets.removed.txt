@@ -1,0 +1,1 @@
+E:\Coding\CSharp\AspNetCore\My-Projects\CallDoctor\CallDoctor2\wwwroot\Rotitiva\wkhtmltopdf.exe

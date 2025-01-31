@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kFbLYhlTBwbgKKKrwB11RuZwYcB0yYg5Tf6G364a2bA=",
+  "Hash": "rVWJvYqR34Ynom+KWMwJhRhA3W2Y2ghKGqzPb23DJDI=",
   "Source": "CallDoctor",
   "BasePath": "_content/CallDoctor",
   "Mode": "Default",
@@ -16,6 +16,27 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "SourceId": "CallDoctor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\wwwroot\\",
+      "BasePath": "_content/CallDoctor",
+      "RelativePath": "Rotativa/wkhtmltopdf#[.{fingerprint}]?.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cuquy3615b",
+      "Integrity": "ZNF2gjIL/9RbIgjtE7E21ZE56CVzdF8UVWzyXpXL2Ag=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Rotativa\\wkhtmltopdf.exe"
+    },
     {
       "Identity": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\wwwroot\\StyleSheet.css",
       "SourceId": "CallDoctor",
@@ -39,6 +60,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "Rotativa/wkhtmltopdf.cuquy3615b.exe",
+      "AssetFile": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41563648"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.microsoft.portable-executable"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZNF2gjIL/9RbIgjtE7E21ZE56CVzdF8UVWzyXpXL2Ag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 11 Jun 2020 00:24:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cuquy3615b"
+        },
+        {
+          "Name": "label",
+          "Value": "Rotativa/wkhtmltopdf.exe"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZNF2gjIL/9RbIgjtE7E21ZE56CVzdF8UVWzyXpXL2Ag="
+        }
+      ]
+    },
+    {
+      "Route": "Rotativa/wkhtmltopdf.exe",
+      "AssetFile": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41563648"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.microsoft.portable-executable"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZNF2gjIL/9RbIgjtE7E21ZE56CVzdF8UVWzyXpXL2Ag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 11 Jun 2020 00:24:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZNF2gjIL/9RbIgjtE7E21ZE56CVzdF8UVWzyXpXL2Ag="
+        }
+      ]
+    },
     {
       "Route": "StyleSheet.css",
       "AssetFile": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\wwwroot\\StyleSheet.css",
