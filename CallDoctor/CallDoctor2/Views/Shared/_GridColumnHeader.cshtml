@@ -1,0 +1,20 @@
+﻿@using ServiceConstracts.Enums;
+@if (@ViewBag.CurrentSortBy == @ViewBag.ColumnName && (@ViewBag.CurrentSortOrder == @SortOrderOptions.Desc))
+{
+        <th>
+        <a asp-action="Index" asp-controller="Doctors" asp-route-searchBy="@ViewBag.CurrentSearchBy" asp-route-searchString="@ViewBag.CurrentSearchString" asp-route-sortBy="@ViewBag.ColumnName" asp-route-sortOrder=@SortOrderOptions.Asc>@ViewBag.DisplayName</a>
+        <i class="fa-solid fa-sort-up" />
+        </th>
+}
+else if (@ViewBag.CurrentSortBy == @ViewBag.ColumnName && (@ViewBag.CurrentSortOrder == @SortOrderOptions.Asc))
+{
+    <th>
+        <a asp-action="Index" asp-controller="Doctors" asp-route-searchBy="@ViewBag.CurrentSearchBy" asp-route-searchString="@ViewBag.CurrentSearchString" asp-route-sortBy="@ViewBag.ColumnName" asp-route-sortOrder=@SortOrderOptions.Desc>@ViewBag.DisplayName</a>
+        <i class="fa-solid fa-sort-down" />
+    </th>
+}else{
+    <th>
+        <a asp-action="Index" asp-controller="Doctors" asp-route-searchBy = "@ViewBag.CurrentSearchBy" asp-route-searchString="@ViewBag.CurrentSearchString" asp-route-sortBy="@ViewBag.ColumnName" asp-route-sortOrder=@SortOrderOptions.Asc>@ViewBag.DisplayName</a>
+    </th>
+}
+
