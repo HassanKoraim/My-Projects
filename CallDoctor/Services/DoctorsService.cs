@@ -98,9 +98,23 @@ namespace Services
             return matchingDoctors;
         }
 
-        public Task<List<DoctorResponse>> GetSortedDoctors(List<DoctorResponse> Alldoctors, string? sortBy, SortOrderOptions sortOrder)
+        public async Task<List<DoctorResponse>> GetSortedDoctors(List<DoctorResponse> Alldoctors, string? sortBy, SortOrderOptions sortOrder)
         {
-            throw new NotImplementedException();
+            List<DoctorResponse> sortedDoctors = Alldoctors;
+            if (Alldoctors == null) return null;
+            if (sortBy == null || sortOrder == null) return sortedDoctors;
+            sortedDoctors = (sortBy, sortOrder) switch
+            {
+                // Sort by Doctor Name
+                (nameof(DoctorResponse.DoctorName), SortOrderOptions.Asc) => sortedDoctors.OrderBy(temp => temp.DoctorName, StringComparer.OrdinalIgnoreCase).ToList(),
+                (nameof(DoctorResponse.DoctorName), SortOrderOptions.Desc) => sortedDoctors.OrderByDescending(temp => temp.DoctorName, StringComparer.OrdinalIgnoreCase).ToList(),
+                //Sort by Examination Price
+                (nameof(DoctorResponse.ExaminationPrice), SortOrderOptions.Asc) => sortedDoctors.OrderBy(temp => temp.ExaminationPrice).ToList(),
+                (nameof(DoctorResponse.ExaminationPrice), SortOrderOptions.Desc) => sortedDoctors.OrderByDescending(temp => temp.ExaminationPrice).ToList(),
+                _ => sortedDoctors
+            };
+            return sortedDoctors;
+            
         }
 
         public Task UpdateDoctor()
