@@ -31,10 +31,19 @@
     <thead>
         <tr>
             <th scope="col">#</th>
-            <th scope="col">Doctor Name</th>
+            @await Html.PartialAsync("_GridColumnHeader", new ViewDataDictionary(ViewData)
+            {
+            {"ColumnName", nameof(DoctorResponse.DoctorName)},
+            {"DisplayName", "Doctor Name"}
+            })
             <th scope="col">Specialization</th>
             <th scope="col">City Name</th>
             <th scope="col">Address</th>
+            @await Html.PartialAsync("_GridColumnHeader", new ViewDataDictionary(ViewData)
+            {
+            {"ColumnName", nameof(DoctorResponse.ExaminationPrice)},
+            {"DisplayName", "Examination Price"}
+            })
             <th scope="col">Phone Number</th>
         </tr>
     </thead>
@@ -49,6 +58,7 @@
                 <td>@doctor.Specialization</td>
                 <td>@doctor.CityName</td>
                 <td>@doctor.Address</td>
+                <td>@doctor.ExaminationPrice</td>
                 <td>@doctor.PhoneNumber</td>
             </tr>
             i++;
