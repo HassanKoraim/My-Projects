@@ -1,0 +1,40 @@
+﻿@using ServiceConstracts.DTO;
+@model DoctorAddRequest;
+@using Services;
+@{
+    
+}
+<div class="container">
+    <h2 class="header">Doctor Registration Form</h2>
+    <form action="#" method="post" class="box">
+        <label class="form-label" asp-for="DoctorName">Doctor Name:</label>
+        <input class="form-input" asp-for="DoctorName"  required>
+
+         <label class="form-label" asp-for="CityId">City Name:</label>
+         <select asp-for="CityId">
+            <option value="">Select City</option>
+            @foreach (var city in ViewBag.Cities)
+            {
+                <option value="@city.CityId">@city.CityName</option>
+            })
+         </select>
+@*         <input class="form-input" type="text" id="cityName" name="cityName" required> 
+ *@
+       @*  <label class="form-label" for="cityId">City ID:</label>
+        <input class="form-input" type="text" id="cityId" name="cityId"> *@
+
+        <label class="form-label" asp-for="Specialization">Specialization:</label>
+        <input class="form-input" asp-for="Specialization">
+
+        <label class="form-label" asp-for="ExaminationPrice">Examination Price:</label>
+        <input class="form-input" asp-for="ExaminationPrice">
+
+        <label class="form-label" asp-for="Address">Address:</label>
+        <input class="form-input" asp-for="Address" required>
+
+        <label class="form-label" asp-for="PhoneNumber">Phone Number:</label>
+        <input class="form-input" asp-for="PhoneNumber" required>
+
+        <button type="submit" class="button button-blue-back mt">Submit</button>
+    </form>
+</div>
