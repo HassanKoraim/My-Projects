@@ -17,9 +17,10 @@ namespace Services
             throw new NotImplementedException();
         }
 
-        public Task<List<CityResponse>> GetAllCities()
+        public async Task<List<CityResponse>> GetAllCities()
         {
-            throw new NotImplementedException();
+            List<CityResponse> cities = _db.Cities.Select(temp => temp.ToCityResponse()).ToList();
+            return cities;
         }
 
         public Task<CityResponse> GetCityById(Guid id)
