@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rVWJvYqR34Ynom+KWMwJhRhA3W2Y2ghKGqzPb23DJDI=",
+  "Hash": "ohfR+2UfLXUOWHue9m78oimJBZIQPbL+ZwgW0DWKpRQ=",
   "Source": "CallDoctor",
   "BasePath": "_content/CallDoctor",
   "Mode": "Default",
@@ -16,6 +16,27 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\wwwroot\\img\\logo.png",
+      "SourceId": "CallDoctor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\wwwroot\\",
+      "BasePath": "_content/CallDoctor",
+      "RelativePath": "img/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0ruze1p8ud",
+      "Integrity": "bIjX+9A0rMJHEC+h8reBb4ZwCEQI2HlB6OnqH9+QB8g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo.png"
+    },
     {
       "Identity": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
       "SourceId": "CallDoctor",
@@ -60,6 +81,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "img/logo.0ruze1p8ud.png",
+      "AssetFile": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\wwwroot\\img\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bIjX+9A0rMJHEC+h8reBb4ZwCEQI2HlB6OnqH9+QB8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 16:06:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0ruze1p8ud"
+        },
+        {
+          "Name": "label",
+          "Value": "img/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bIjX+9A0rMJHEC+h8reBb4ZwCEQI2HlB6OnqH9+QB8g="
+        }
+      ]
+    },
+    {
+      "Route": "img/logo.png",
+      "AssetFile": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\wwwroot\\img\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bIjX+9A0rMJHEC+h8reBb4ZwCEQI2HlB6OnqH9+QB8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 16:06:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bIjX+9A0rMJHEC+h8reBb4ZwCEQI2HlB6OnqH9+QB8g="
+        }
+      ]
+    },
     {
       "Route": "Rotativa/wkhtmltopdf.cuquy3615b.exe",
       "AssetFile": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\wwwroot\\Rotativa\\wkhtmltopdf.exe",

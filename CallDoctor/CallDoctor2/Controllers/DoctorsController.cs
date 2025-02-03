@@ -1,9 +1,11 @@
 ﻿using Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using Rotativa;
 using Rotativa.AspNetCore;
 using ServiceConstracts;
 using ServiceConstracts.DTO;
+using ServiceConstracts.Enums;
 using System.Text.Json;
 
 namespace CallDoctor.Controllers
@@ -21,12 +23,27 @@ namespace CallDoctor.Controllers
         [HttpGet]
         [Route("/")]
         [Route("[action]")]
-        public async Task<IActionResult> Index(string searchby, string searchString)
+        public async Task<IActionResult> Index(string searchby, string searchString, string sortBy = nameof(DoctorResponse.DoctorName) , SortOrderOptions sortOrder = SortOrderOptions.Asc)
         {
+            ViewBag.SearchFields = new Dictionary<string, string>()
+            {
+                {nameof(DoctorResponse.DoctorName),"DoctorName" },
+                {nameof(DoctorResponse.CityName),"CityName" },
+                {nameof(DoctorResponse.Address),"Address" },
+                {nameof(DoctorResponse.Specialization),"Specialization" },
+                {nameof(DoctorResponse.ExaminationPrice),"ExaminationPrice" },
+                {nameof(DoctorResponse.PhoneNumber),"PhoneNumber" },
+
+            };
             List<DoctorResponse> matchingDoctors = await _doctorsService.GetFilteredDoctors(searchby, searchString);
             ViewBag.CurrentSearchBy = searchby;
             ViewBag.CurrentSearchString = searchString;
-            return View(matchingDoctors);
+
+            List<DoctorResponse> sortedDoctors = await _doctorsService.GetSortedDoctors(matchingDoctors, sortBy, sortOrder);
+            ViewBag.CurrentSortBy = sortBy;
+            ViewBag.CurrentSortOrder = sortOrder;
+
+            return View(sortedDoctors);
         }
 
         [Route("[action]")]

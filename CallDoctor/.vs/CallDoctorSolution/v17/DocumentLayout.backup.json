@@ -7,12 +7,44 @@
       "RelativeMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|solutionrelative:calldoctor2\\views\\doctors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{815C816B-E37B-46EC-B914-0C106BC92FF8}|Services\\Services.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\services\\doctorsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{815C816B-E37B-46EC-B914-0C106BC92FF8}|Services\\Services.csproj|solutionrelative:services\\doctorsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\calldoctor2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|solutionrelative:calldoctor2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\calldoctor2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|solutionrelative:calldoctor2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\calldoctor2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|solutionrelative:calldoctor2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\calldoctor2\\views\\shared\\_gridcolumnheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|solutionrelative:calldoctor2\\views\\shared\\_gridcolumnheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\calldoctor2\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|solutionrelative:calldoctor2\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815C816B-E37B-46EC-B914-0C106BC92FF8}|Services\\Services.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\services\\doctorsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{815C816B-E37B-46EC-B914-0C106BC92FF8}|Services\\Services.csproj|solutionrelative:services\\doctorsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E48137-239D-4F98-BA64-422BA65F40D2}|Entities\\Entities.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93E48137-239D-4F98-BA64-422BA65F40D2}|Entities\\Entities.csproj|solutionrelative:entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\calldoctor2\\views\\doctors\\doctorspdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|solutionrelative:calldoctor2\\views\\doctors\\doctorspdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\calldoctor2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|solutionrelative:calldoctor2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\calldoctor2\\calldoctor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|solutionrelative:calldoctor2\\calldoctor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93E48137-239D-4F98-BA64-422BA65F40D2}|Entities\\Entities.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\entities\\doctorsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,26 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8FA0BFF8-87FD-4666-87C3-9E9A68A37CCC}|ServicesConstract\\ServiceConstracts.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\servicesconstract\\dto\\doctorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FA0BFF8-87FD-4666-87C3-9E9A68A37CCC}|ServicesConstract\\ServiceConstracts.csproj|solutionrelative:servicesconstract\\dto\\doctorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\calldoctor2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|solutionrelative:calldoctor2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\calldoctor2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|solutionrelative:calldoctor2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\calldoctor2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|solutionrelative:calldoctor2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\calldoctor2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|solutionrelative:calldoctor2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\calldoctor2\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|solutionrelative:calldoctor2\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{922E26E5-6DDA-494B-8B1C-EE0A917DEF8A}|UnitTest\\UnitTest.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\unittest\\doctorsservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,14 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8FA0BFF8-87FD-4666-87C3-9E9A68A37CCC}|ServicesConstract\\ServiceConstracts.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\servicesconstract\\dto\\cityaddrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FA0BFF8-87FD-4666-87C3-9E9A68A37CCC}|ServicesConstract\\ServiceConstracts.csproj|solutionrelative:servicesconstract\\dto\\cityaddrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\calldoctor2\\cities.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|solutionrelative:calldoctor2\\cities.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93E48137-239D-4F98-BA64-422BA65F40D2}|Entities\\Entities.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93E48137-239D-4F98-BA64-422BA65F40D2}|Entities\\Entities.csproj|solutionrelative:entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{922E26E5-6DDA-494B-8B1C-EE0A917DEF8A}|UnitTest\\UnitTest.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\unittest\\unittest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -99,14 +103,6 @@
       "RelativeMoniker": "D:0:0:{93E48137-239D-4F98-BA64-422BA65F40D2}|Entities\\Entities.csproj|solutionrelative:entities\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\calldoctor2\\doctors.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|solutionrelative:calldoctor2\\doctors.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\calldoctor2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|solutionrelative:calldoctor2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8FA0BFF8-87FD-4666-87C3-9E9A68A37CCC}|ServicesConstract\\ServiceConstracts.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\servicesconstract\\dto\\cityresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FA0BFF8-87FD-4666-87C3-9E9A68A37CCC}|ServicesConstract\\ServiceConstracts.csproj|solutionrelative:servicesconstract\\dto\\cityresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -117,6 +113,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{8FA0BFF8-87FD-4666-87C3-9E9A68A37CCC}|ServicesConstract\\ServiceConstracts.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\servicesconstract\\enums\\sortorderoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FA0BFF8-87FD-4666-87C3-9E9A68A37CCC}|ServicesConstract\\ServiceConstracts.csproj|solutionrelative:servicesconstract\\enums\\sortorderoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\calldoctor2\\doctors.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|solutionrelative:calldoctor2\\doctors.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\calldoctor2\\cities.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|solutionrelative:calldoctor2\\cities.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\calldoctor2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|solutionrelative:calldoctor2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|e:\\coding\\csharp\\aspnetcore\\my-projects\\calldoctor\\calldoctor2\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CE7226-F13C-4777-9823-BD0FF3169771}|CallDoctor2\\CallDoctor.csproj|solutionrelative:calldoctor2\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -134,13 +146,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "DoctorsService.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\Services\\DoctorsService.cs",
               "RelativeDocumentMoniker": "Services\\DoctorsService.cs",
               "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\Services\\DoctorsService.cs",
               "RelativeToolTip": "Services\\DoctorsService.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAAwFQAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowHMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T16:56:01.405Z",
               "IsPinned": true,
@@ -152,9 +164,9 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Views\\Doctors\\Index.cshtml",
               "RelativeDocumentMoniker": "CallDoctor2\\Views\\Doctors\\Index.cshtml",
-              "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Views\\Doctors\\Index.cshtml",
-              "RelativeToolTip": "CallDoctor2\\Views\\Doctors\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Views\\Doctors\\Index.cshtml*",
+              "RelativeToolTip": "CallDoctor2\\Views\\Doctors\\Index.cshtml*",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvyMAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-29T20:25:15.715Z",
               "IsPinned": true,
@@ -162,13 +174,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "DoctorsController.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Controllers\\DoctorsController.cs",
               "RelativeDocumentMoniker": "CallDoctor2\\Controllers\\DoctorsController.cs",
               "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Controllers\\DoctorsController.cs",
               "RelativeToolTip": "CallDoctor2\\Controllers\\DoctorsController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAIBIwBYAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwCoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T11:34:54.92Z",
               "IsPinned": true,
@@ -176,19 +188,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "CallDoctor2\\Views\\_ViewStart.cshtml",
-              "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "CallDoctor2\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "_GridColumnHeader.cshtml",
+              "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Views\\Shared\\_GridColumnHeader.cshtml",
+              "RelativeDocumentMoniker": "CallDoctor2\\Views\\Shared\\_GridColumnHeader.cshtml",
+              "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Views\\Shared\\_GridColumnHeader.cshtml",
+              "RelativeToolTip": "CallDoctor2\\Views\\Shared\\_GridColumnHeader.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAACaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-29T20:34:00.506Z"
+              "WhenOpened": "2025-02-01T12:12:30.046Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
+              "Title": "DoctorsPdf.cshtml",
+              "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Views\\Doctors\\DoctorsPdf.cshtml",
+              "RelativeDocumentMoniker": "CallDoctor2\\Views\\Doctors\\DoctorsPdf.cshtml",
+              "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Views\\Doctors\\DoctorsPdf.cshtml",
+              "RelativeToolTip": "CallDoctor2\\Views\\Doctors\\DoctorsPdf.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-31T07:48:36.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CallDoctor.csproj",
+              "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\CallDoctor.csproj",
+              "RelativeDocumentMoniker": "CallDoctor2\\CallDoctor.csproj",
+              "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\CallDoctor.csproj",
+              "RelativeToolTip": "CallDoctor2\\CallDoctor.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-31T07:38:47.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CallDoctor2\\Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Views\\_ViewStart.cshtml*",
+              "RelativeToolTip": "CallDoctor2\\Views\\_ViewStart.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T20:34:00.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "CallDoctor2\\Views\\_ViewImports.cshtml",
@@ -196,24 +246,25 @@
               "RelativeToolTip": "CallDoctor2\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-29T20:32:45.535Z"
+              "WhenOpened": "2025-01-29T20:32:45.535Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CallDoctor2\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "CallDoctor2\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-29T20:25:44.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "UnitTest.csproj",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\UnitTest\\UnitTest.csproj",
               "RelativeDocumentMoniker": "UnitTest\\UnitTest.csproj",
@@ -225,20 +276,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "DoctorsServiceTest.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\UnitTest\\DoctorsServiceTest.cs",
               "RelativeDocumentMoniker": "UnitTest\\DoctorsServiceTest.cs",
               "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\UnitTest\\DoctorsServiceTest.cs",
               "RelativeToolTip": "UnitTest\\DoctorsServiceTest.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAEBdwBEAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T21:58:50.611Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ServiceConstracts.csproj",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\ServiceConstracts.csproj",
               "RelativeDocumentMoniker": "ServicesConstract\\ServiceConstracts.csproj",
@@ -250,19 +301,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "ValidationHelper.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\Services\\Helpers\\ValidationHelper.cs",
               "RelativeDocumentMoniker": "Services\\Helpers\\ValidationHelper.cs",
               "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\Services\\Helpers\\ValidationHelper.cs",
               "RelativeToolTip": "Services\\Helpers\\ValidationHelper.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAEBdwBcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T21:39:41.102Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "20250128185359_IntailCreation.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\Entities\\Migrations\\20250128185359_IntailCreation.cs",
               "RelativeDocumentMoniker": "Entities\\Migrations\\20250128185359_IntailCreation.cs",
@@ -274,19 +325,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "Doctors.json",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Doctors.json",
               "RelativeDocumentMoniker": "CallDoctor2\\Doctors.json",
               "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Doctors.json",
               "RelativeToolTip": "CallDoctor2\\Doctors.json",
-              "ViewState": "AgIAAAgAAAAAAAAAAIBjwBUAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAIBzwBUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-01-28T11:56:18.099Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 29,
               "Title": "Cities.json",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Cities.json",
               "RelativeDocumentMoniker": "CallDoctor2\\Cities.json",
@@ -298,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 30,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\appsettings.json",
               "RelativeDocumentMoniker": "CallDoctor2\\appsettings.json",
@@ -310,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Entities.csproj",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\Entities\\Entities.csproj",
               "RelativeDocumentMoniker": "Entities\\Entities.csproj",
@@ -322,20 +373,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "DoctorsDbContext.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\Entities\\DoctorsDbContext.cs",
               "RelativeDocumentMoniker": "Entities\\DoctorsDbContext.cs",
               "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\Entities\\DoctorsDbContext.cs",
               "RelativeToolTip": "Entities\\DoctorsDbContext.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAABEwBkAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T16:02:56.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T16:02:56.159Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Services.csproj",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\Services\\Services.csproj",
               "RelativeDocumentMoniker": "Services\\Services.csproj",
@@ -347,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "CityResponse.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\DTO\\CityResponse.cs",
               "RelativeDocumentMoniker": "ServicesConstract\\DTO\\CityResponse.cs",
@@ -359,31 +409,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "CityAddRequest.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\DTO\\CityAddRequest.cs",
               "RelativeDocumentMoniker": "ServicesConstract\\DTO\\CityAddRequest.cs",
               "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\DTO\\CityAddRequest.cs",
               "RelativeToolTip": "ServicesConstract\\DTO\\CityAddRequest.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAEBdwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T15:48:33.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "ICitiesService.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\ICitiesService.cs",
               "RelativeDocumentMoniker": "ServicesConstract\\ICitiesService.cs",
               "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\ICitiesService.cs",
               "RelativeToolTip": "ServicesConstract\\ICitiesService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAwAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAEBdwAwAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T15:44:39.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "SortOrderOptions.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\Enums\\SortOrderOptions.cs",
               "RelativeDocumentMoniker": "ServicesConstract\\Enums\\SortOrderOptions.cs",
@@ -395,32 +445,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "DoctorResponse.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\DTO\\DoctorResponse.cs",
               "RelativeDocumentMoniker": "ServicesConstract\\DTO\\DoctorResponse.cs",
               "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\DTO\\DoctorResponse.cs",
               "RelativeToolTip": "ServicesConstract\\DTO\\DoctorResponse.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAewB8AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAIA2wB8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T14:21:51.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T14:21:51.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "DoctorAddRequest.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\DTO\\DoctorAddRequest.cs",
               "RelativeDocumentMoniker": "ServicesConstract\\DTO\\DoctorAddRequest.cs",
               "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\DTO\\DoctorAddRequest.cs",
               "RelativeToolTip": "ServicesConstract\\DTO\\DoctorAddRequest.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBgwBYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T14:12:48.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "IDoctorsService.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\ServicesConstract\\IDoctorsService.cs",
               "RelativeDocumentMoniker": "ServicesConstract\\IDoctorsService.cs",
@@ -428,36 +477,35 @@
               "RelativeToolTip": "ServicesConstract\\IDoctorsService.cs",
               "ViewState": "AgIAABIAAAAAAAAAAEBBwBcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T14:09:20.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T14:09:20.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "CitiesService.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\Services\\CitiesService.cs",
               "RelativeDocumentMoniker": "Services\\CitiesService.cs",
               "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\Services\\CitiesService.cs",
               "RelativeToolTip": "Services\\CitiesService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAEBdwA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T14:07:32.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Program.cs",
               "RelativeDocumentMoniker": "CallDoctor2\\Program.cs",
               "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Program.cs",
               "RelativeToolTip": "CallDoctor2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAEBdwBAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T14:05:30.774Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "City.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\Entities\\City.cs",
               "RelativeDocumentMoniker": "Entities\\City.cs",
@@ -469,19 +517,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 7,
               "Title": "Doctor.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\Entities\\Doctor.cs",
               "RelativeDocumentMoniker": "Entities\\Doctor.cs",
               "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\Entities\\Doctor.cs",
               "RelativeToolTip": "Entities\\Doctor.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAABIwBYAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwBQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T13:53:06.387Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 31,
               "Title": "CitiesController.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\My-Projects\\CallDoctor\\CallDoctor2\\Controllers\\CitiesController.cs",
               "RelativeDocumentMoniker": "CallDoctor2\\Controllers\\CitiesController.cs",

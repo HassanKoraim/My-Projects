@@ -165,6 +165,88 @@
           "Value": "StyleSheet.css"
         }
       ]
+    },
+    {
+      "Route": "img/logo.0ruze1p8ud.png",
+      "AssetFile": "img/logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bIjX+9A0rMJHEC+h8reBb4ZwCEQI2HlB6OnqH9+QB8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 16:06:50 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0ruze1p8ud"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bIjX+9A0rMJHEC+h8reBb4ZwCEQI2HlB6OnqH9+QB8g="
+        },
+        {
+          "Name": "label",
+          "Value": "img/logo.png"
+        }
+      ]
+    },
+    {
+      "Route": "img/logo.png",
+      "AssetFile": "img/logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bIjX+9A0rMJHEC+h8reBb4ZwCEQI2HlB6OnqH9+QB8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 16:06:50 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bIjX+9A0rMJHEC+h8reBb4ZwCEQI2HlB6OnqH9+QB8g="
+        }
+      ]
     }
   ]
 }

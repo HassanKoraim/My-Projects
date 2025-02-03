@@ -1,5 +1,17 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/CallDoctor/img/logo.0ruze1p8ud.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0ruze1p8ud"},{"Name":"integrity","Value":"sha256-bIjX\u002B9A0rMJHEC\u002Bh8reBb4ZwCEQI2HlB6OnqH9\u002BQB8g="},{"Name":"label","Value":"_content/CallDoctor/img/logo.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"86321"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022bIjX\u002B9A0rMJHEC\u002Bh8reBb4ZwCEQI2HlB6OnqH9\u002BQB8g=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 16:06:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CallDoctor/img/logo.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bIjX\u002B9A0rMJHEC\u002Bh8reBb4ZwCEQI2HlB6OnqH9\u002BQB8g="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"86321"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022bIjX\u002B9A0rMJHEC\u002Bh8reBb4ZwCEQI2HlB6OnqH9\u002BQB8g=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 16:06:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CallDoctor/Rotativa/wkhtmltopdf.cuquy3615b.exe">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Rotativa\wkhtmltopdf.exe'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
