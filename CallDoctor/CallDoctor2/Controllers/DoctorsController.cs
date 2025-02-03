@@ -14,10 +14,11 @@ namespace CallDoctor.Controllers
     public class DoctorsController : Controller
     {
         private readonly IDoctorsService _doctorsService;
-
-        public DoctorsController(IDoctorsService doctorsService)
+        private readonly ICitiesService _citiesService;
+        public DoctorsController(IDoctorsService doctorsService, ICitiesService citiesService)
         {
             _doctorsService = doctorsService;
+            _citiesService = citiesService;
         }
 
         [HttpGet]
@@ -67,5 +68,23 @@ namespace CallDoctor.Controllers
                 PageOrientation = Rotativa.AspNetCore.Options.Orientation.Landscape
             };
         }
+
+        [HttpGet]
+        [Route("[action]")]
+        public async Task<IActionResult> Create()
+        {
+            List<CityResponse> cities = await _citiesService.GetAllCities();
+            ViewBag.cities = cities;
+            return View();
+        }
+
+        [HttpPost]
+        [Route("[action]")]
+        public async Task<IActionResult> Create(DoctorAddRequest? doctorAddRequest)
+        {
+            DoctorResponse doctorRespose = await _doctorsService.AddDoctor(doctorAddRequest);
+            return RedirectToAction("Index" , "Doctors");
+        }
+
     }
 }
