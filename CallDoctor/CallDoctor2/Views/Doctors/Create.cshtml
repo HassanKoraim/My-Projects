@@ -8,15 +8,19 @@
     <h2 class="header">Doctor Registration Form</h2>
     <form action="#" method="post" class="box">
         <label class="form-label" asp-for="DoctorName">Doctor Name:</label>
-        <input class="form-input" asp-for="DoctorName"  required>
+        <input class="form-input" asp-for="DoctorName">
+        <span asp-validation-for="DoctorName" class="text-red"></span>
+        <br />
 
          <label class="form-label" asp-for="CityId">City Name:</label>
-         <select asp-for="CityId">
+         <select asp-for="CityId" class="form-input">
             <option value="">Select City</option>
             @foreach (var city in ViewBag.Cities)
             {
                 <option value="@city.CityId">@city.CityName</option>
             })
+            <span asp-validation-for="CityId" class="text-red"></span>
+            <br />
          </select>
 @*         <input class="form-input" type="text" id="cityName" name="cityName" required> 
  *@
@@ -25,16 +29,33 @@
 
         <label class="form-label" asp-for="Specialization">Specialization:</label>
         <input class="form-input" asp-for="Specialization">
+        <span asp-validation-for="Specialization" class="text-red"></span>
+        <br />
 
         <label class="form-label" asp-for="ExaminationPrice">Examination Price:</label>
         <input class="form-input" asp-for="ExaminationPrice">
+        <span asp-validation-for="ExaminationPrice" class="text-red"></span>
+        <br />
 
         <label class="form-label" asp-for="Address">Address:</label>
-        <input class="form-input" asp-for="Address" required>
+        <input class="form-input" asp-for="Address">
+        <span asp-validation-for="Address" class="text-red"></span>
+        <br />
 
         <label class="form-label" asp-for="PhoneNumber">Phone Number:</label>
-        <input class="form-input" asp-for="PhoneNumber" required>
-
+        <input class="form-input" asp-for="PhoneNumber">
+        <span asp-validation-for="PhoneNumber" class="text-red"></span>
+        <br />
         <button type="submit" class="button button-blue-back mt">Submit</button>
     </form>
 </div>
+@*checking the validation rules on the browser side itself before making a request
+  * see this in the cdnjs website for the jquery and jquery.validate and jqyery-validation-unobtrusive libraries
+ *@
+@section scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" asp-fallback-test="window.jQuery" asp-fallback-src="~/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.4/jquery.validate.min.js" asp-fallback-test="window.jQuery.validator" asp-fallback-src="~/jquery.validate.min.js"
+            integrity="sha512-FOhq9HThdn7ltbK8abmGn60A/EMtEzIzv1rvuh+DqzJtSGq8BRdEN0U+j0iKEIffiw/yEtVuladk6rsG4X6Uqg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js" asp-fallback-test="window.jQuery.validator.unobtrusive" asp-fallback-src="~/jquery.validate.unobtrusive.min.js" integrity="sha512-o6XqxgrUsKmchwy9G5VRNWSSxTS4Urr4loO6/0hYdpWmFUfHqGzawGxeQGMDqYzxjY9sbktPbNlkIQJWagVZQg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+}
