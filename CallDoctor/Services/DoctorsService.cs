@@ -35,7 +35,6 @@ namespace Services
 
             Doctor doctor = doctorAddRequest.ToDoctor();
             doctor.DoctorId = Guid.NewGuid();
-            doctor.CityName = "Ef";
             _db.Doctors.Add(doctor);
             await _db.SaveChangesAsync();
             return doctor.ToDoctorResponse();
@@ -121,5 +120,6 @@ namespace Services
         {
             throw new NotImplementedException();
         }
+
     }
 }
