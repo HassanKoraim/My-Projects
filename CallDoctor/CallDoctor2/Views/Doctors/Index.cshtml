@@ -6,14 +6,26 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-6">
-            <form asp-controller="Doctors" asp-action="Index" method="get" >
+            <form asp-controller="Doctors" asp-action="Index" asp-route-searchby= "@ViewBag.CurrentSearchBy" method="get" >
                 <div class="input-group mb-3" >
                     <select class="form-select" style="max-width: 150px;" name="searchBy">
-                        <option value="@nameof(DoctorResponse.DoctorName)">Doctor Name</option>
+                        @* <option value="@nameof(DoctorResponse.DoctorName)">Doctor Name</option>
                         <option value="@nameof(DoctorResponse.Specialization)">Specialization</option>
                         <option value="@nameof(DoctorResponse.Address)">Address</option>
-                        <option value="@nameof(DoctorResponse.CityName)">City Name</option>
+                        <option value="@nameof(DoctorResponse.CityName)">City Name</option> *@
+                        @foreach (var field in ViewBag.SearchFields){
+                            if (field.Key == ViewBag.CurrentSearchBy)
+                            {
+                                <option value=@field.Key selected>@field.Value</option>
+                            }
+                            else{
+                                <option value=@field.Key>@field.Value</option>
+
+                            }
+                                
+                        }
                     </select>
+                    
                     <input type="text" class="form-control" placeholder="Search..." name="searchString" value="@ViewBag.CurrentSearchString">
                     <button class="btn btn-primary" type="submit">Search</button>
                 </div>
