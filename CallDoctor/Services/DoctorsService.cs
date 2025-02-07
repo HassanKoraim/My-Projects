@@ -47,8 +47,10 @@ namespace Services
 
         public async Task<List<DoctorResponse>> GetAllDoctors()
         {
-            List<DoctorResponse> doctorResponses = await _db.Doctors.Include("City")
-                .Select(temp => temp.ToDoctorResponse()).ToListAsync();
+            /*List<DoctorResponse> doctorResponses = await _db.Doctors.Include("City")
+                .Select(temp => temp.ToDoctorResponse()).ToListAsync();*/
+            List<DoctorResponse> doctorResponses = _db.sp_GetAllDoctors()
+                .Select(temp => temp.ToDoctorResponse()).ToList();
             return doctorResponses;
         }
 
