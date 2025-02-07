@@ -34,6 +34,10 @@ namespace Entities
             foreach (Doctor doctor in doctors)
                 modelBuilder.Entity<Doctor>().HasData(doctor);
         }
+        public List<Doctor> sp_GetAllDoctors()
+        {
+            return Doctors.FromSqlRaw("EXECUTE [dbo].[GetAllDoctors]").ToList();
+        }
         /*protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
