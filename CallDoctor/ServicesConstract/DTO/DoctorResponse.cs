@@ -29,7 +29,7 @@ namespace ServiceConstracts.DTO
                 DoctorId = doctor.DoctorId,
                 DoctorName = doctor.DoctorName,
                 CityId = doctor.CityId,
-                CityName = doctor.City.CityName,
+                CityName = doctor.City?.CityName,
                 Specialization = doctor.Specialization,
                 ExaminationPrice = doctor.ExaminationPrice,
                 Address = doctor.Address,

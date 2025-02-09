@@ -12,9 +12,10 @@ namespace Entities.Migrations
             string sp_GetAllDoctors =
                 @" CREATE PROCEDURE [dbo].[GetAllDoctors]
                    AS BEGIN
-                   SELECT DoctorId, DoctorName, CityName, CityId, Address,
+                   SELECT DoctorId, DoctorName, Cities.CityName, Doctors.CityId, Address,
                    PhoneNumber, ExaminationPrice,Specialization
                    FROM [dbo].[Doctors]
+                   LEFT JOIN Cities on Doctors.CityId = Cities.CityId;
                    END ";
            migrationBuilder.Sql(sp_GetAllDoctors);
         }

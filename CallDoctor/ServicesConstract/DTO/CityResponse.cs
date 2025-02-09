@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Entities;
 
 namespace ServiceConstracts.DTO
 {
@@ -13,11 +14,12 @@ namespace ServiceConstracts.DTO
     }
     public static class CityExtension
     {
-        public static CityResponse ToCityResponse(this CityAddRequest cityAddRequset)
+        public static CityResponse ToCityResponse(this City city)
         {
             return new CityResponse
             {
-                CityName = cityAddRequset.CityName
+                CityId = city.CityId,
+                CityName = city.CityName
             };
         }
     }

@@ -24,5 +24,31 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CallDoctor.Controllers.CitiesController",
+    "Method": "UploadCitiesFromExcel",
+    "RelativePath": "Cities/UploadCitiesFromExcel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CallDoctor.Controllers.CitiesController",
+    "Method": "UploadCitiesFromExcel",
+    "RelativePath": "Cities/UploadCitiesFromExcel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

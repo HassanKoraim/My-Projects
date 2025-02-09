@@ -49,7 +49,7 @@ namespace Services
             int citiesInserted = 0;
             using(ExcelPackage excelPackage = new ExcelPackage(stream))
             {
-               ExcelWorksheet excelWorksheet = excelPackage.Workbook.Worksheets["Cities"];
+                ExcelWorksheet excelWorksheet = excelPackage.Workbook.Worksheets["Cities"];
                 int rowNumber = excelWorksheet.Dimension.Rows;
                 for(int i = 2; i <= rowNumber; i++)
                 {

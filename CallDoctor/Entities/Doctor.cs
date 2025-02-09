@@ -13,8 +13,8 @@ namespace Entities
         [StringLength (40)]
         public string DoctorName { get; set; }
 
-        [StringLength(100)]
-        public string? CityName { get; set; }
+/*        [StringLength(100)]
+        public string? CityName { get; set; }*/
         public Guid? CityId { get; set; }
         [StringLength(100)]
         public string? Specialization { get; set; }

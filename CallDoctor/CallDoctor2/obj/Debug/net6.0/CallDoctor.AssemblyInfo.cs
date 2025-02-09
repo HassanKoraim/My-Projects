@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CallDoctor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90fdf01c409da749e2d12ade16a676c8978fc182")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddf4b3253082ee3951b59bfb86a3f4bf9b5e7718")]
 [assembly: System.Reflection.AssemblyProductAttribute("CallDoctor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CallDoctor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -38,13 +38,14 @@ namespace CallDoctor.Controllers
         }
         [HttpPost]
         [Route("[action]")]
-        public async Task<IActionResult> UploadCitiesFromExcel(IFormFile formFile)
+        public async Task<IActionResult> UploadCitiesFromExcel(IFormFile? formFile)
         {
             if(formFile == null || formFile.Length == 0)
             {
-                ViewBag.ErrorMessage = "Please an xlsx File";
+                ViewBag.ErrorMessage = "Please select an xlsx File";
+                return View();
             }
-            if (!Path.GetExtension(formFile.FileName).Equals(".xlxs", StringComparison.OrdinalIgnoreCase))
+            if (!Path.GetExtension(formFile.FileName).Equals(".xlsx", StringComparison.OrdinalIgnoreCase))
             {
                 ViewBag.ErrorMessage = "Unsupported file. 'xlsx' is expected";
                 return View();

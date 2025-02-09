@@ -32,6 +32,6 @@ namespace ServiceConstracts
         Task<List<DoctorResponse>> GetSortedDoctors(List<DoctorResponse> Alldoctors, string? sortBy, SortOrderOptions sortOrder);
         Task UpdateDoctor();
         Task<bool> DeleteDoctor(Guid id);
-
+        
     }
 }

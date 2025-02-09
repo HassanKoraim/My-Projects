@@ -32,9 +32,6 @@ namespace CallDoctor.Controllers
                 {nameof(DoctorResponse.CityName),"CityName" },
                 {nameof(DoctorResponse.Address),"Address" },
                 {nameof(DoctorResponse.Specialization),"Specialization" },
-                {nameof(DoctorResponse.ExaminationPrice),"ExaminationPrice" },
-                {nameof(DoctorResponse.PhoneNumber),"PhoneNumber" },
-
             };
             List<DoctorResponse> matchingDoctors = await _doctorsService.GetFilteredDoctors(searchby, searchString);
             ViewBag.CurrentSearchBy = searchby;
@@ -85,6 +82,8 @@ namespace CallDoctor.Controllers
             DoctorResponse doctorRespose = await _doctorsService.AddDoctor(doctorAddRequest);
             return RedirectToAction("Index" , "Doctors");
         }
+
+       
 
     }
 }

@@ -35,8 +35,9 @@ namespace Services
 
             Doctor doctor = doctorAddRequest.ToDoctor();
             doctor.DoctorId = Guid.NewGuid();
-            _db.Doctors.Add(doctor);
-            await _db.SaveChangesAsync();
+           /* _db.Doctors.Add(doctor);
+            await _db.SaveChangesAsync();*/
+           _db.sp_AddDoctor(doctor);
             return doctor.ToDoctorResponse();
         }
 
